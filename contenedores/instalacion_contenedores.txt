@@ -1,0 +1,6 @@
+ACTUALIZAR DEPENDENCIAS
+
+Para actualizar las dependencias, ejecuta el siguiente comando:
+
+```bash
+sudo apt update
