@@ -1,6 +1,10 @@
-ACTUALIZAR DEPENDENCIAS
-
-Para actualizar las dependencias, ejecuta el siguiente comando:
-
-```bash
+# INSTALAR DOCKER  
 sudo apt update
+
+sudo apt upgrade
+
+sudo apt install docker.io
+
+sudo systemctl start docker
+
+sudo systemctl enable docker
