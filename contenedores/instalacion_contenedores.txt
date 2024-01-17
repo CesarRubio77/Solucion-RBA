@@ -1,10 +1,16 @@
 # INSTALAR DOCKER  
 sudo apt update
-
 sudo apt upgrade
-
 sudo apt install docker.io
-
 sudo systemctl start docker
-
 sudo systemctl enable docker
+
+# INSTALAR DOCKER COMPOSE
+sudo apt install docker-compose
+
+# CORREGIR PERMISOS DEL SOCKET DE DOCKER
+sudo chown $USER:docker /var/run/docker.sock
+sudo chmod 660 /var/run/docker.sock
+
+
+
